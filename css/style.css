@@ -12,7 +12,8 @@ main {
   margin-left: 5%;
   margin-right: 5%;
 }
-#index1 {
+#index1,
+#temaer {
   background-image: url(../img/baggrund1.webp);
   background-size: cover;
   line-height: 0.5;
@@ -32,7 +33,9 @@ h1 {
   font-family: jacq2;
   color: #000000;
   font-weight: lighter;
-  font-size: 40px;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 10%;
 }
 h2 {
   font-size: 30px;
@@ -41,16 +44,11 @@ h3 {
   font-size: 25px;
 }
 
-.nav_1 {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  border-bottom: 1px solid black;
-}
-
 nav a {
   padding: 4em;
   text-decoration: none;
   color: black;
+  font-size: 20px;
 }
 
 nav {
@@ -58,21 +56,14 @@ nav {
   margin-top: 50px;
 }
 
-.grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 10%;
-}
-.grid_1-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 10%;
-}
 .forsidebillede {
   max-width: 100%;
 }
 .forsidetekst {
   margin-top: 30%;
+}
+.navn {
+  text-align: left;
 }
 .knap {
   display: inline-block;
@@ -83,10 +74,72 @@ nav {
   text-decoration: none;
   border: 2px solid black;
   margin-bottom: 20%;
+  white-space: normal;
+  max-width: 200px;
+  line-height: 1.5;
+  text-align: center;
 }
-.tema-knap,
-.om-mig-knap {
-  display: grid;
-  place-items: center;
-  padding: 5%;
+
+.farver-web {
+  max-width: 80%;
+}
+.mobilskærm1 {
+  max-width: 50%;
+  border-radius: 10px;
+}
+.mac1,
+.wireframe {
+  max-width: 100%;
+  border-radius: 20px;
+}
+.wireframe2 {
+  max-width: 85%;
+  border-radius: 20px;
+  margin-left: 10%;
+}
+.wireframe-afsnit {
+  background-color: #f7e6e2;
+  margin-bottom: 5%;
+}
+.besøg {
+  text-align: center;
+  margin-top: 20%;
+  font-size: 30px;
+}
+.besøg2 {
+  background-color: #f6dfda;
+  border-radius: 20px;
+  padding: 15px;
+  display: inline-block;
+}
+.layout-billede1 {
+  max-width: 115%;
+  margin-top: 10%;
+}
+.layout-billede2 {
+  max-width: 60%;
+}
+.kodningsbillede,
+.gestalt1 {
+  display: flex; /* Bruger flexbox */
+  justify-content: center; /* Centrerer vandret */
+  align-items: center;
+}
+.gestalt {
+  max-width: 70%;
+}
+
+.grid_3-6 {
+  background-color: #f7e6e2;
+}
+
+.grid_3-5,
+.grid_3-6 {
+  align-items: center;
+  text-align: center;
+}
+.gestalt-tekst {
+  max-width: 50%;
+  margin: 0 auto;
+  line-height: 2;
 }

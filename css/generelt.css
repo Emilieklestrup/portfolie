@@ -1,0 +1,44 @@
+.nav_1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-bottom: 1px solid black;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10%;
+}
+
+.grid_1-2,
+.grid_2,
+.grid_2-1,
+.grid_3,
+.grid_3-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10%;
+}
+.grid_3-3,
+.grid_3-4,
+.grid_3-5,
+.grid_3-6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.grid_3-1 {
+  display: flex; /* Bruger flexbox */
+  justify-content: center; /* Centrerer vandret */
+  align-items: center;
+}
+.tema-knap,
+.om-mig-knap,
+.tema2,
+.tema3,
+.tema4,
+.tema5 {
+  display: grid;
+  place-items: center;
+}
