@@ -14,9 +14,14 @@ main {
 }
 #index1,
 #temaer {
-  background-image: url(../img/baggrund1.webp);
+  background-image: url(../img/baggrund3.webp);
   background-size: cover;
   line-height: 0.5;
+}
+
+.info {
+  font-family: jacq1;
+  text-align: left;
 }
 
 h2,
@@ -39,9 +44,18 @@ h1 {
 }
 h2 {
   font-size: 30px;
+  font-family: jacq2;
+  text-align: center;
+  margin-top: 10%;
 }
 h3 {
   font-size: 25px;
+  font-family: jacq2;
+}
+
+h4 {
+  font-family: jacq1;
+  text-align: center;
 }
 
 nav a {
@@ -142,4 +156,10 @@ nav {
   max-width: 50%;
   margin: 0 auto;
   line-height: 2;
+}
+.tekst-web {
+  max-width: 70%;
+  margin: 0 auto;
+  line-height: 2;
+  margin-bottom: 10%;
 }
