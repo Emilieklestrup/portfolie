@@ -1,0 +1,92 @@
+@font-face {
+  font-family: jacq1;
+  src: url(../fonts/jacquesfrancois-regular-webfont.woff2);
+}
+
+@font-face {
+  font-family: jacq2;
+  src: url(../fonts/jacquesfrancoisshadow-regular-webfont.woff2);
+}
+main {
+  max-width: 1400px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#index1 {
+  background-image: url(../img/baggrund1.webp);
+  background-size: cover;
+  line-height: 0.5;
+}
+
+h2,
+h3,
+h4,
+nav,
+a,
+p {
+  font-family: jacq1;
+  color: #000000;
+  font-weight: lighter;
+}
+h1 {
+  font-family: jacq2;
+  color: #000000;
+  font-weight: lighter;
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 25px;
+}
+
+.nav_1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-bottom: 1px solid black;
+}
+
+nav a {
+  padding: 4em;
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  text-align: right;
+  margin-top: 50px;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10%;
+}
+.grid_1-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10%;
+}
+.forsidebillede {
+  max-width: 100%;
+}
+.forsidetekst {
+  margin-top: 30%;
+}
+.knap {
+  display: inline-block;
+  color: black;
+  font-size: 30px;
+  padding: 80px 80px;
+  background-color: #fff7f5;
+  text-decoration: none;
+  border: 2px solid black;
+  margin-bottom: 20%;
+}
+.tema-knap,
+.om-mig-knap {
+  display: grid;
+  place-items: center;
+  padding: 5%;
+}
