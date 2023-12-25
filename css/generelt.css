@@ -14,7 +14,8 @@
 .grid_2,
 .grid_2-1,
 .grid_3,
-.grid_3-2 {
+.grid_3-2,
+.grid_4-5 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 10%;
@@ -22,7 +23,8 @@
 .grid_3-3,
 .grid_3-4,
 .grid_3-5,
-.grid_3-6 {
+.grid_3-6,
+.grid_4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 5%;
@@ -41,4 +43,27 @@
 .tema5 {
   display: grid;
   place-items: center;
+}
+
+.grid_4-1,
+.grid_4-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.grid_4-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 60%;
+  align-items: center;
+  margin: 0 auto;
+  grid-gap: 150px;
+}
+.grid_4-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px; /* Juster efter behov for at tilføje mellemrum mellem elementer */
+  align-items: center; /* Centrer indholdet lodret */
+  justify-content: center; /* Centrer indholdet vandret */
 }
