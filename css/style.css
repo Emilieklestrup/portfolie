@@ -13,7 +13,8 @@ main {
   margin-right: 5%;
 }
 #index1,
-#temaer {
+#temaer,
+#indhold {
   background-image: url(../img/baggrund3.webp);
   background-size: cover;
   line-height: 0.5;
@@ -22,10 +23,15 @@ main {
   background-image: url(../img/baggrund7.webp);
   background-size: cover;
 }
+#videosite {
+  background-image: url(../img/blaa-baggrund.webp);
+  background-size: cover;
+}
 
 .info {
   font-family: jacq1;
   text-align: left;
+  margin-top: 5%;
 }
 
 h2,
@@ -45,17 +51,24 @@ h1 {
   text-align: center;
   margin-top: 10%;
 }
+h2 .læringsmål {
+  margin-top: none;
+}
 h2 {
   font-size: 35px;
   font-family: jacq2;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 30%;
 }
 h3 {
   font-size: 25px;
   font-family: jacq2;
+  margin-top: 10%;
+  margin-left: 12%;
 }
-
+#mål {
+  margin-top: 5%;
+}
 h4 {
   font-family: jacq1;
   text-align: center;
@@ -119,9 +132,16 @@ nav {
   max-width: 100%;
   border-radius: 20px;
 }
+.mobil-brus {
+  max-width: 70%;
+  border-radius: 10%;
+}
 .mobil2 {
   max-width: 33%;
   border-radius: 15%;
+}
+.tooj {
+  max-width: 100%;
 }
 
 .wireframe2 {
@@ -163,6 +183,41 @@ nav {
   display: inline-block;
   margin-top: 15%;
 }
+.besøg_mia {
+  font-family: jacq2;
+  background-color: #dbe5ff;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 15px;
+  display: inline-block;
+  margin-top: 15%;
+}
+
+.farver-mia {
+  max-width: 50%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+}
+
+.besøg_brus {
+  font-family: jacq2;
+  background-color: #cfd3c7;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 15px;
+  display: inline-block;
+  margin-top: 15%;
+}
+
+.besøg_spil {
+  font-family: jacq2;
+  background-color: #f7daf7;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 15px;
+  display: inline-block;
+  margin-top: 15%;
+}
 .layout-billede1 {
   max-width: 115%;
   margin-top: 10%;
@@ -178,7 +233,8 @@ nav {
 }
 .gestalt,
 .power-point {
-  max-width: 70%;
+  max-width: 80%;
+  margin-top: 2%;
 }
 
 .grid_3-6 {
@@ -234,4 +290,52 @@ nav {
 
 .brugertest-billede {
   max-width: 90%;
+}
+.kaffe-farver {
+  margin-left: 15%;
+}
+.kaffe {
+  margin-left: 30%;
+}
+
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 4s;
+}
+.mia-show {
+  margin-top: 10%;
+}
+.html_video1 {
+  position: relative;
+  width: 100%;
 }

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/generelt.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav_1">
+        <div class="logo"><img src="../img/logo.webp" alt="logo" /></div>
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="temaer.html">TEMAER</a>
+          <a href="mig.html">OM MIG</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1>Virksomhedssite</h1>
+      <h4>TEMA 5</h4>
+      <p></p>
+      <h2 id="mål">LÆRINGSMÅL TEMA 5:</h2>
+      <div>
+        <p class="tekst-web">
+          I Tema 5 opnår deltagerne en grundlæggende forståelse for
+          videoproduktion, der omfatter præproduktion, b-roll-optagelse og
+          postproduktion. Anvendelsen af mobilkameraer er integreret i
+          processen, og der er ligeledes mulighed for at låne supplerende udstyr
+          på skolen. Hovedsageligt arbejdes der med Adobe Premiere Pro og
+          Audition som redigeringsværktøjer. Derudover, præsenteres deltagerne
+          for nye begreber og værktøjer inden for videoproduktionens komplekse
+          proces.
+        </p>
+      </div>
+
+      <h2>Virksomhedssite - BRUS</h2>
+
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="../img/brus_billede1.webp" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="../img/brus_billede4.webp" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="../img/brus_billed3.webp" style="width: 100%" />
+        </div>
+      </div>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {
+            slideIndex = 1;
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+      </script>
+
+      <h2>Virksomhedssitet</h2>
+      <div class="grid_3-2">
+        <img class="mac1" src="../img/mac-brus.webp" alt="mac skærm 2" />
+        <div class="besøg">
+          <p class="besøg_brus">Besøg virksomhedssitet her:</p>
+          <a href="http://emilieklestrup.dk/brus/html/index.html">
+            Emilieklestrup.dk/brus/index</a
+          >
+        </div>
+      </div>
+      <div class="grid_6">
+        <a class="besøg_brus" href="https://tapperietbrus.dk/"
+          >Besøg Brus nuværende hjemmeside:</a
+        >
+      </div>
+      <div class="grid_3-1">
+        <img class="power-point" src="../img/brus-hjemmeside.webp" alt="" />
+      </div>
+
+      <h2>Proces</h2>
+      <h3>Moodboard, style-tiles og user stories</h3>
+      <p class="tekst-web">
+        Deres nuværende hjemmeside har nogle utroligt kedelige farver, hvilket
+        vi gerne vil ændre på, da deres Instagram og øl-etiketter stråler af
+        farver. Det er netop dette farverige udtryk, vi ønsker at implementere i
+        vores redesign. Derudover er deres nuværende hjemmeside meget
+        uoverskuelig. Vores primære fokus er derfor også at gøre den mere
+        brugervenlig, simpel og overskuelig, så deres målgruppe nemt kan
+        navigere rundt på hjemmesiden.
+      </p>
+      <div class="grid_3-3">
+        <div class="grid_3-1">
+          <img
+            class="power-point"
+            src="../img/moodborad-brus.webp"
+            alt="moodboard"
+          />
+        </div>
+        <div class="grid_3-1">
+          <img
+            class="power-point"
+            src="../img/styletiles-brus.webp"
+            alt="user stories"
+          />
+        </div>
+      </div>
+      <div>
+        <div class="grid_3-1">
+          <img class="power-point" src="../img/userstories-brus.webp" alt="" />
+        </div>
+      </div>
+      <div class="grid_3">
+        <div class="tekst-web">
+          <h3>FARVER:</h3>
+          <img class="farver-web" src="../img/farver-brus.webp" alt="" />
+          <p></p>
+          <h3>FONTE:</h3>
+          <p>1. Pavanam</p>
+          <a href="https://fonts.google.com/specimen/Pavanam"
+            >https://fonts.google.com/specimen/Pavanam</a
+          >
+          <p></p>
+          <h3>KNAPPER:</h3>
+          <img src="../img/knapper.webp" alt="" />
+        </div>
+        <div class="grid_3-1">
+          <img class="mobil-brus" src="../img/mobil-brus.webp" alt="" />
+        </div>
+      </div>
+
+      <h2>Kodning</h2>
+      <p>
+        Da det var en gruppe opgave, delte vi kodningen og videoredigereingen
+        op. Jeg endte med at kode index og siden med drikkevarer.
+      </p>
+      <div class="grid_3-1">
+        <img class="power-point" src="../img/brus-site.webp" alt="" />
+      </div>
+      <div class="grid_3-1">
+        <img class="power-point" src="../img/val-kodning.webp" alt="" />
+      </div>
+
+      <h2>Test</h2>
+      <h3>Bert-Test</h3>
+      <p class="tekst-web">
+        "Bert-test" står for Bipolær Emotionel Respons Test. Denne testmetode
+        involverer at få forbrugerne til at besvare spørgsmål om f.eks. en
+        hjemmeside for at afgøre, hvad de tænker om den. Et eksempel på et
+        spørgsmål kunne være "overskuelig design<-->rodet design," hvor brugerne
+        skal vurdere, om designet er rodet eller overskueligt. Testen indsamler
+        information fra deltagerne for at opnå indsigt i, hvad forbrugerne
+        finder tiltalende eller mindre tiltalende. Resultaterne bruges til at
+        danne en klar opfattelse af, hvad der kan betragtes som positivt eller
+        negativt, hvilket igen hjælper med at identificere områder, der kan
+        forbedres eller redesignes. Dette gør Bert-testen til et nyttigt værktøj
+        inden for multimediedesign for at skabe mere brugervenlige og tiltalende
+        digitale oplevelser.
+      </p>
+      <div class="grid_3-1">
+        <img class="power-point" src="../img/bert-gammel.webp" alt="" />
+      </div>
+      <div class="grid_3-1">
+        <img class="power-point" src="../img/bert-ny.webp" alt="" />
+      </div>
+      <p class="tekst-web">
+        Målet med heuristisk-test er at identificere og rapportere potentielle
+        problemer tidligt i udviklingsprocessen, hvilket gør det muligt at
+        foretage rettelser, før produktet lanceres eller implementeres bredt.
+        Heuristisk-test kan være en effektiv tilgang til at forbedre
+        brugervenlighed og kvaliteten af et produkt. Vi har netop også lavet en
+        heuristisk-test af vores redesign, netop for at se de potentielle fejl
+        der skulle være, her er nogen af eksemplerne:
+      </p>
+      <div class="grid_3-1">
+        <img class="power-point" src="../img/test1.webp" alt="" />
+      </div>
+      <div class="grid_3-1">
+        <img class="power-point" src="../img/test2-.webp" alt="" />
+      </div>
+
+      <h2>Video/interview</h2>
+      <p class="tekst-web">
+        Da tema 5 også holder videoproduktion, skulle vi også filme et interview
+        af BRUS, videoen er ikke redigeret af mig, men af en af mine gruppe
+        medlemmer. den bæger lidt præg af at det er første gag vi rigtigt har
+        filmet og redigeret. men forhåbentlig en masse øvelse i fremtiden
+      </p>
+      <div class="html_video">
+        <video
+          class="html_video1"
+          controls
+          src="http://emilieklestrup.dk/BRUS.mp4"
+        ></video>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

@@ -84,4 +84,5 @@
   grid-gap: 10px; /* Juster efter behov for at tilføje mellemrum mellem elementer */
   align-items: center; /* Centrer indholdet lodret */
   justify-content: center; /* Centrer indholdet vandret */
+  margin-top: 10%;
 }

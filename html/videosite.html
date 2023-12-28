@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/generelt.css" />
+  </head>
+  <body id="videosite">
+    <header>
+      <div class="nav_1">
+        <div class="logo"><img src="../img/logo.webp" alt="logo" /></div>
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="temaer.html">TEMAER</a>
+          <a href="mig.html">OM MIG</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1>Videosite</h1>
+      <h4>TEMA 5</h4>
+      <p></p>
+      <h2 id="mål">LÆRINGSMÅL TEMA 5:</h2>
+      <div>
+        <p class="tekst-web">
+          I Tema 5 opnår deltagerne en grundlæggende forståelse for
+          videoproduktion, der omfatter præproduktion, b-roll-optagelse og
+          postproduktion. Anvendelsen af mobilkameraer er integreret i
+          processen, og der er ligeledes mulighed for at låne supplerende udstyr
+          på skolen. Hovedsageligt arbejdes der med Adobe Premiere Pro og
+          Audition som redigeringsværktøjer. Derudover, præsenteres deltagerne
+          for nye begreber og værktøjer inden for videoproduktionens komplekse
+          proces.
+        </p>
+      </div>
+
+      <h2>Videositet</h2>
+      <div class="grid_3-2">
+        <img class="mac1" src="../img/mac-skærm-mia.webp" alt="mac skærm 2" />
+        <div class="besøg">
+          <p class="besøg_mia">Besøg Videositet her:</p>
+          <a href="http://127.0.0.1:5501/index.html">
+            Emilieklestrup.dk/keavideosite/</a
+          >
+        </div>
+      </div>
+
+      <h3>Farver:</h3>
+      <img class="farver-mia" src="../img/farver-mia.webp" alt="" />
+
+      <div class="grid_6">
+        <a class="besøg_mia" href="http://127.0.0.1:5501/galleri.html"
+          >Se Mia's Galleri Her:</a
+        >
+      </div>
+
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img
+            class="mia-show"
+            src="../img/mia-billede1.webp"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <img
+            class="mia-show"
+            src="../img/mia-billede2.webp"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <script>
+        /* Initialisering af variabel og startfunktion til at vise slides */
+        let slideIndex = 0;
+        showSlides();
+
+        /* Funktion til at vise slides */
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+
+          /* Skjul alle slides */
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+
+          /* Opdater slideIndex og nulstil, hvis det overskrider antallet af slides */
+          slideIndex++;
+          if (slideIndex > slides.length) {
+            slideIndex = 1;
+          }
+
+          /* Fjern "active" klassen fra alle punkter */
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+
+          /* Vis det aktuelle slide og tilføj "active" klassen til det tilsvarende punkt */
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+
+          /* Kald funktionen igen med en forsinkelse på 3000 ms (3 sekunder) */
+          setTimeout(showSlides, 3000);
+        }
+      </script>
+
+      <h2>Se Videoen:</h2>
+      <div class="html_video">
+        <video
+          class="html_video1"
+          controls
+          src="http://www.emilieklestrup.dk/videosite-mia.mp4"
+        ></video>
+      </div>
+      <h3>Musik:</h3>
+      <p>1. Landras Dream - Audionautix</p>
+      <a href="https://www.youtube.com/watch?app=desktop&v=-arN8q2HMbI"
+        >https://www.youtube.com/watch?app=desktop&v=-arN8q2HMbI</a
+      >
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
