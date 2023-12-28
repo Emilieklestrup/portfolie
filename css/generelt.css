@@ -60,9 +60,27 @@
   margin: 0 auto;
   grid-gap: 150px;
 }
+
+.grid_6-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 0 auto;
+}
+.grid_6-2 {
+  max-width: 80%;
+  margin-left: 10%;
+}
 .grid_4-4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 10px; /* Juster efter behov for at tilføje mellemrum mellem elementer */
+  align-items: center; /* Centrer indholdet lodret */
+  justify-content: center; /* Centrer indholdet vandret */
+}
+.grid_6 {
+  display: grid;
+
   grid-gap: 10px; /* Juster efter behov for at tilføje mellemrum mellem elementer */
   align-items: center; /* Centrer indholdet lodret */
   justify-content: center; /* Centrer indholdet vandret */

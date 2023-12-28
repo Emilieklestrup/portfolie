@@ -119,6 +119,11 @@ nav {
   max-width: 100%;
   border-radius: 20px;
 }
+.mobil2 {
+  max-width: 33%;
+  border-radius: 15%;
+}
+
 .wireframe2 {
   max-width: 85%;
   border-radius: 20px;
@@ -130,7 +135,7 @@ nav {
 }
 .besøg {
   text-align: center;
-  margin-top: 20%;
+  margin-top: 10%;
   font-size: 30px;
 }
 .besøg2 {
@@ -138,6 +143,25 @@ nav {
   border-radius: 20px;
   padding: 15px;
   display: inline-block;
+}
+
+.besøg_emnesite {
+  font-family: jacq2;
+  background-color: #dcd8d1;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 15px;
+  display: inline-block;
+  margin-top: 15%;
+}
+.besøg_emnesite2 {
+  font-family: jacq2;
+  background-color: #cad4be;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 15px;
+  display: inline-block;
+  margin-top: 15%;
 }
 .layout-billede1 {
   max-width: 115%;
@@ -152,7 +176,8 @@ nav {
   justify-content: center;
   align-items: center;
 }
-.gestalt {
+.gestalt,
+.power-point {
   max-width: 70%;
 }
 
@@ -200,9 +225,13 @@ nav {
 
 .insta,
 .linkedin {
-  max-width: 60%;
+  max-width: 50%;
   display: flex;
   flex-direction: column; /* Stak billeder lodret */
   align-items: center;
   margin: 0 auto; /* Centrerer elementet vandret */
+}
+
+.brugertest-billede {
+  max-width: 90%;
 }
