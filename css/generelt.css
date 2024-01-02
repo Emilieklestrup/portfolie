@@ -1,7 +1,7 @@
 .nav_1 {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 
 .grid_1-1 {
@@ -85,4 +85,12 @@
   align-items: center; /* Centrer indholdet lodret */
   justify-content: center; /* Centrer indholdet vandret */
   margin-top: 10%;
+}
+
+.grid_0 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 0 auto;
+  border-top: solid 2px black;
 }

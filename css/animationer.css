@@ -1,0 +1,84 @@
+.fald {
+  animation: fald infinite linear;
+}
+
+.speed1 {
+  animation-duration: 1.5s;
+}
+
+.speed2 {
+  animation-duration: 2s;
+}
+
+.delay1 {
+  animation-delay: 0.4s;
+}
+.delay2 {
+  animation-delay: 0.9s;
+}
+.delay3 {
+  animation-delay: 1.5s;
+}
+.delay4 {
+  animation-delay: 2s;
+}
+
+.hide {
+  display: none;
+}
+
+@keyframes fald {
+  from {
+    translate: 0 0;
+  }
+  to {
+    translate: 0 700%;
+  }
+}
+
+.forsvind {
+  animation: forsvind 2s 1 both;
+}
+
+@keyframes forsvind {
+  from {
+    opacity: 1;
+    rotate: 0deg;
+    scale: 1;
+  }
+  to {
+    opacity: 0;
+    rotate: 720deg;
+    scale: 0;
+  }
+}
+
+.frys {
+  animation-play-state: paused;
+}
+
+.minut_animation {
+  animation-name: min_kf;
+  animation-duration: 30s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+
+@keyframes min_kf {
+  to {
+    rotate: 360deg;
+  }
+}
+
+.time_animation {
+  animation-name: time_kf;
+  animation-duration: 30s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+
+@keyframes time_kf {
+  to {
+    rotate: 60deg;
+  }
+}

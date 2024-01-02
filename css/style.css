@@ -27,13 +27,31 @@ main {
   background-image: url(../img/blaa-baggrund.webp);
   background-size: cover;
 }
+video {
+  width: 80%;
+  height: auto;
+  display: block;
+}
+.ytvideo {
+  position: relative;
+  max-width: 150%;
+}
 
+.html_video1 {
+  position: relative;
+  width: 83%;
+}
 .info {
   font-family: jacq1;
   text-align: left;
   margin-top: 5%;
 }
-
+.info2 {
+  font-family: jacq1;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 0;
+}
 h2,
 h3,
 nav,
@@ -55,13 +73,13 @@ h2 .læringsmål {
   margin-top: none;
 }
 h2 {
-  font-size: 35px;
+  font-size: 40px;
   font-family: jacq2;
   text-align: center;
-  margin-top: 30%;
+  margin-top: 20%;
 }
 h3 {
-  font-size: 25px;
+  font-size: 30px;
   font-family: jacq2;
   margin-top: 10%;
   margin-left: 12%;
@@ -76,6 +94,7 @@ h4 {
 p {
   font-size: 18px;
   line-height: 2.5;
+  margin-left: 2%;
 }
 .hvem-tekst {
   line-height: 3;
@@ -93,6 +112,13 @@ nav {
   text-align: right;
   margin-top: 50px;
 }
+/* a {
+  color: #000000;
+  text-decoration: none;
+  transition: transform 0.3s; /* Overgangseffekt for størrelsesændring */
+
+/* a:hover {
+  transform: scale(1.1); /* Ændr skaleringsfaktoren efter behov */
 
 .forsidebillede {
   max-width: 100%;
@@ -132,6 +158,10 @@ nav {
   max-width: 100%;
   border-radius: 20px;
 }
+
+.kawaii {
+  max-width: 30%;
+}
 .mobil-brus {
   max-width: 70%;
   border-radius: 10%;
@@ -167,6 +197,7 @@ nav {
 
 .besøg_emnesite {
   font-family: jacq2;
+  font-size: 25px;
   background-color: #dcd8d1;
   text-decoration: none;
   border-radius: 20px;
@@ -176,6 +207,7 @@ nav {
 }
 .besøg_emnesite2 {
   font-family: jacq2;
+  font-size: 25px;
   background-color: #cad4be;
   text-decoration: none;
   border-radius: 20px;
@@ -185,6 +217,7 @@ nav {
 }
 .besøg_mia {
   font-family: jacq2;
+  font-size: 25px;
   background-color: #dbe5ff;
   text-decoration: none;
   border-radius: 20px;
@@ -201,6 +234,7 @@ nav {
 
 .besøg_brus {
   font-family: jacq2;
+  font-size: 25px;
   background-color: #cfd3c7;
   text-decoration: none;
   border-radius: 20px;
@@ -236,6 +270,10 @@ nav {
   max-width: 80%;
   margin-top: 2%;
 }
+.gestaltlov {
+  margin-bottom: 5%;
+  margin-left: 0;
+}
 
 .grid_3-6 {
   background-color: #f7e6e2;
@@ -250,18 +288,20 @@ nav {
   max-width: 50%;
   margin: 0 auto;
   line-height: 2;
+  margin-bottom: 2%;
 }
 .tekst-web {
-  max-width: 70%;
+  max-width: 76%;
   margin: 0 auto;
-  line-height: 2;
-  margin-bottom: 10%;
+  line-height: 2.5;
+  margin-bottom: 5%;
 }
 
 .om-mig-overskrift {
   border-bottom: 1px solid #f5c7bc;
   display: inline-block;
   padding-bottom: 5px;
+  margin-left: 1%;
 }
 .grid_4-1 {
   background-color: #fcf2f0;
@@ -278,7 +318,9 @@ nav {
   max-width: 80%; /* Ændret til en højere værdi (f.eks. 80%) */
   margin: 15px auto;
 }
-
+.link p {
+  margin-left: 0;
+}
 .insta,
 .linkedin {
   max-width: 50%;
@@ -335,7 +377,20 @@ img {
 .mia-show {
   margin-top: 10%;
 }
-.html_video1 {
-  position: relative;
-  width: 100%;
+
+a .footer-img {
+  max-width: 3%; /* Ændr bredden efter behov */
+  margin-left: 2%;
+}
+
+a .footer-img2 {
+  max-width: 2%; /* Ændr bredden efter behov */
+  margin-left: 2%;
+}
+
+.foot {
+  display: flex;
+  justify-content: flex-end; /* Placér elementerne i højre side */
+  align-items: center; /* Centrer indholdet vertikalt */
+  padding: 10px;
 }

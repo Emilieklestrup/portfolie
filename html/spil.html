@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/generelt.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/animationer.css" />
+    <link rel="stylesheet" href="../css/spil.css" />
+  </head>
+  <body id="animation">
+    <header>
+      <div class="nav_1">
+        <div class="logo"><img src="../img/logo.webp" alt="logo" /></div>
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="temaer.html">TEMAER</a>
+          <a href="mig.html">OM MIG</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div id="screen">
+        <div id="game">
+          <div id="game_background"></div>
+          <div id="game_elements">
+            <div id="ren_tee_contanier1">
+              <div id="ren_tee_sprite1"></div>
+            </div>
+            <div id="ren_bukser_contanier1">
+              <div id="ren_bukser_sprite1"></div>
+            </div>
+
+            <div id="ren_sokker_contanier1">
+              <div id="ren_sokker_sprite1"></div>
+            </div>
+
+            <div id="ren_lang_contanier1">
+              <div id="ren_lang_sprite1"></div>
+            </div>
+
+            <div id="ren_kjole_contanier1">
+              <div id="ren_kjole_sprite1"></div>
+            </div>
+            <!-- beskidte elementer -->
+            <div id="beskidt_tee_contanier1">
+              <div id="beskidt_tee_sprite1"></div>
+            </div>
+
+            <div id="beskidt_kjole_contanier1">
+              <div id="beskidt_kjole_sprite1"></div>
+            </div>
+
+            <div id="beskidt_lang_contanier1">
+              <div id="beskidt_lang_sprite1"></div>
+            </div>
+
+            <div id="beskidt_bukser_contanier1">
+              <div id="beskidt_bukser_sprite1"></div>
+            </div>
+
+            <div id="beskidt_sokker_contanier1">
+              <div id="beskidt_sokker_sprite1"></div>
+            </div>
+
+            <div id="bombe_contanier1">
+              <div id="bombe_sprite1"></div>
+            </div>
+          </div>
+          <div id="game_foreground"></div>
+          <div id="game_ui">
+            <div id="point">
+              <div id="mine_point"></div>
+            </div>
+            <div id="liv">
+              <div id="mine_liv"></div>
+            </div>
+            <div id="tid">
+              <div id="urskive"></div>
+              <div id="time_viser" class=""></div>
+              <div id="minut_viser" class=""></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="start" class="hide">
+          <div id="play_botton"></div>
+        </div>
+        <div id="game_over" class="hide">
+          <div id="game_over_botton"></div>
+          <div id="try_again"></div>
+        </div>
+
+        <div id="level_complete" class="hide">
+          <div id="level_complete_botton"></div>
+        </div>
+      </div>
+    </main>
+    <audio id="bombe_snd" src="../sounds/bombe-lyd.mp3"></audio>
+    <audio id="ren_snd" src="../sounds/jubel.mp3"></audio>
+    <audio id="beskidt_snd" src="../sounds/øv lyd.mp3"></audio>
+    <audio id="bg_snd" src="../sounds/bg_snd.mp3/"></audio>
+    <footer></footer>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
