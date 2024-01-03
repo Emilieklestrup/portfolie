@@ -23,9 +23,35 @@ main {
   background-image: url(../img/baggrund7.webp);
   background-size: cover;
 }
+
 #videosite {
   background-image: url(../img/blaa-baggrund.webp);
   background-size: cover;
+}
+#ux {
+  background-image: url(../img/ux-bag.webp);
+  background-position: top center;
+  background-size: 1600px;
+  background-repeat: no-repeat;
+}
+#animation {
+  background-image: url(../img/ani.webp);
+  background-position: top center;
+  background-size: 1600px;
+  background-repeat: no-repeat;
+}
+
+#Virksomhedssite {
+  background-image: url(../img/brus-baggrund.webp);
+  background-position: top center;
+  background-size: 1600px;
+  background-repeat: no-repeat;
+}
+#web {
+  background-image: url(../img/baggrund2.webp);
+  background-position: top center;
+  background-size: 1600px;
+  background-repeat: no-repeat;
 }
 video {
   width: 80%;
@@ -112,13 +138,15 @@ nav {
   text-align: right;
   margin-top: 50px;
 }
-/* a {
+a {
   color: #000000;
   text-decoration: none;
-  transition: transform 0.3s; /* Overgangseffekt for størrelsesændring */
+  transition: transform 0.3s;
+} /* Overgangseffekt for størrelsesændring */
 
-/* a:hover {
-  transform: scale(1.1); /* Ændr skaleringsfaktoren efter behov */
+a:hover {
+  transform: scale(1.1);
+} /* Ændr skaleringsfaktoren efter behov */
 
 .forsidebillede {
   max-width: 100%;
