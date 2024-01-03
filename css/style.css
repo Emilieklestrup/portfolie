@@ -17,9 +17,8 @@ main {
 #index1,
 #temaer,
 #indhold {
-  background-image: url(../img/baggrund3.webp);
+  background-image: url(../img/baggrund3a.webp);
   background-size: cover;
-  line-height: 0.5;
 }
 #ommig {
   background-image: url(../img/baggrund7.webp);
@@ -106,7 +105,7 @@ h3 {
   margin-top: 10%;
   margin-left: 12%;
 }
-#mål {
+#maal {
   margin-top: 5%;
 }
 h4 {
@@ -433,4 +432,91 @@ a .footer-img2 {
   justify-content: flex-end;
   align-items: center;
   padding: 10px;
+}
+
+/* Tilpas stilarter for små skærme */
+@media only screen and (max-width: 600px) {
+  #index1,
+  #temaer,
+  #indhold,
+  #ommig,
+  #videosite #ux,
+  #animation,
+  #Virksomhedssite,
+  #web {
+    background: none;
+  }
+  .logo {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  h2 {
+    font-size: 20px;
+
+    text-align: center;
+    margin-top: 20%;
+  }
+  h3 {
+    font-size: 16px;
+    font-family: jacq2;
+    margin-top: 5%;
+    margin-left: 12%;
+  }
+  #maal {
+    margin-top: 5%;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 2.5;
+    margin-left: 2%;
+  }
+  .hvem-tekst {
+    line-height: 3;
+    font-size: 10px;
+  }
+  .knap {
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    padding: 60px 60px;
+    background-color: #fff7f5;
+    text-decoration: none;
+    border: 1px solid black;
+    margin-bottom: 20%;
+    white-space: normal;
+    max-width: 100px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .forsidetekst {
+    margin-top: 0;
+  }
+  .forsidebillede {
+    max-width: 80%;
+  }
+  /*nav og a/link*/
+  nav a {
+    padding: 1.5em;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    margin-bottom: 0%;
+  }
+  nav {
+    margin: 0;
+  }
+  a .footer-img {
+    max-width: 10%;
+  }
+  a .footer-img2 {
+    max-width: 8%;
+  }
 }
