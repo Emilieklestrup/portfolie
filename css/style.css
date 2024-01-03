@@ -12,6 +12,8 @@ main {
   margin-left: 5%;
   margin-right: 5%;
 }
+
+/*baggrunde*/
 #index1,
 #temaer,
 #indhold {
@@ -53,6 +55,9 @@ main {
   background-size: 1600px;
   background-repeat: no-repeat;
 }
+
+/*Videoer*/
+
 video {
   width: 80%;
   height: auto;
@@ -67,17 +72,8 @@ video {
   position: relative;
   width: 83%;
 }
-.info {
-  font-family: jacq1;
-  text-align: left;
-  margin-top: 5%;
-}
-.info2 {
-  font-family: jacq1;
-  text-align: left;
-  margin-top: 5%;
-  margin-left: 0;
-}
+
+/* font size og family på overskrifter og tekst*/
 h2,
 h3,
 nav,
@@ -126,7 +122,41 @@ p {
   line-height: 3;
   font-size: 20px;
 }
+.info {
+  font-family: jacq1;
+  text-align: left;
+  margin-top: 5%;
+}
+.info2 {
+  font-family: jacq1;
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 0;
+}
+.navn {
+  text-align: left;
+}
+.tekst-web {
+  max-width: 76%;
+  margin: 0 auto;
+  line-height: 2.5;
+  margin-bottom: 5%;
+}
+.gestalt-tekst {
+  max-width: 50%;
+  margin: 0 auto;
+  line-height: 2;
+  margin-bottom: 2%;
+}
 
+.om-mig-overskrift {
+  border-bottom: 1px solid #f5c7bc;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-left: 1%;
+}
+
+/*nav og a/link*/
 nav a {
   padding: 4em;
   text-decoration: none;
@@ -142,34 +172,18 @@ a {
   color: #000000;
   text-decoration: none;
   transition: transform 0.3s;
-} /* Overgangseffekt for størrelsesændring */
+}
 
 a:hover {
   transform: scale(1.1);
-} /* Ændr skaleringsfaktoren efter behov */
+}
 
+/*Billeder*/
 .forsidebillede {
   max-width: 100%;
 }
 .forsidetekst {
   margin-top: 30%;
-}
-.navn {
-  text-align: left;
-}
-.knap {
-  display: inline-block;
-  color: black;
-  font-size: 30px;
-  padding: 80px 80px;
-  background-color: #fff7f5;
-  text-decoration: none;
-  border: 2px solid black;
-  margin-bottom: 20%;
-  white-space: normal;
-  max-width: 200px;
-  line-height: 1.5;
-  text-align: center;
 }
 
 .farver-web,
@@ -186,7 +200,13 @@ a:hover {
   max-width: 100%;
   border-radius: 20px;
 }
-
+.layout-billede1 {
+  max-width: 115%;
+  margin-top: 10%;
+}
+.layout-billede2 {
+  max-width: 60%;
+}
 .kawaii {
   max-width: 30%;
 }
@@ -202,6 +222,11 @@ a:hover {
   max-width: 100%;
 }
 
+.farver-mia {
+  max-width: 50%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+}
 .wireframe2 {
   max-width: 85%;
   border-radius: 20px;
@@ -211,6 +236,56 @@ a:hover {
   background-color: #f7e6e2;
   margin-bottom: 5%;
 }
+.kodningsbillede,
+.gestalt1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gestalt,
+.power-point {
+  max-width: 80%;
+  margin-top: 2%;
+}
+.gestaltlov {
+  margin-bottom: 5%;
+  margin-left: 0;
+}
+.insta,
+.linkedin {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.brugertest-billede {
+  max-width: 90%;
+}
+.kaffe-farver {
+  margin-left: 15%;
+}
+.kaffe {
+  margin-left: 30%;
+}
+
+/*knapper og links*/
+.knap {
+  display: inline-block;
+  color: black;
+  font-size: 30px;
+  padding: 80px 80px;
+  background-color: #fff7f5;
+  text-decoration: none;
+  border: 2px solid black;
+  margin-bottom: 20%;
+  white-space: normal;
+  max-width: 200px;
+  line-height: 1.5;
+  text-align: center;
+}
+
 .besøg {
   text-align: center;
   margin-top: 10%;
@@ -218,6 +293,7 @@ a:hover {
 }
 .besøg2 {
   background-color: #f6dfda;
+  font-size: 25px;
   border-radius: 20px;
   padding: 15px;
   display: inline-block;
@@ -254,12 +330,6 @@ a:hover {
   margin-top: 15%;
 }
 
-.farver-mia {
-  max-width: 50%;
-  margin-left: 20%;
-  margin-bottom: 10%;
-}
-
 .besøg_brus {
   font-family: jacq2;
   font-size: 25px;
@@ -280,60 +350,6 @@ a:hover {
   display: inline-block;
   margin-top: 15%;
 }
-.layout-billede1 {
-  max-width: 115%;
-  margin-top: 10%;
-}
-.layout-billede2 {
-  max-width: 60%;
-}
-.kodningsbillede,
-.gestalt1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.gestalt,
-.power-point {
-  max-width: 80%;
-  margin-top: 2%;
-}
-.gestaltlov {
-  margin-bottom: 5%;
-  margin-left: 0;
-}
-
-.grid_3-6 {
-  background-color: #f7e6e2;
-}
-
-.grid_3-5,
-.grid_3-6 {
-  align-items: center;
-  text-align: center;
-}
-.gestalt-tekst {
-  max-width: 50%;
-  margin: 0 auto;
-  line-height: 2;
-  margin-bottom: 2%;
-}
-.tekst-web {
-  max-width: 76%;
-  margin: 0 auto;
-  line-height: 2.5;
-  margin-bottom: 5%;
-}
-
-.om-mig-overskrift {
-  border-bottom: 1px solid #f5c7bc;
-  display: inline-block;
-  padding-bottom: 5px;
-  margin-left: 1%;
-}
-.grid_4-1 {
-  background-color: #fcf2f0;
-}
 
 .link {
   display: flex;
@@ -343,31 +359,29 @@ a:hover {
   background-color: #f6dfda;
   border-radius: 20px;
   padding: 7px;
-  max-width: 80%; /* Ændret til en højere værdi (f.eks. 80%) */
+  max-width: 80%;
   margin: 15px auto;
 }
 .link p {
   margin-left: 0;
 }
-.insta,
-.linkedin {
-  max-width: 50%;
-  display: flex;
-  flex-direction: column; /* Stak billeder lodret */
+
+/*Grid*/
+.grid_3-6 {
+  background-color: #f7e6e2;
+}
+
+.grid_3-5,
+.grid_3-6 {
   align-items: center;
-  margin: 0 auto; /* Centrerer elementet vandret */
+  text-align: center;
 }
 
-.brugertest-billede {
-  max-width: 90%;
-}
-.kaffe-farver {
-  margin-left: 15%;
-}
-.kaffe {
-  margin-left: 30%;
+.grid_4-1 {
+  background-color: #fcf2f0;
 }
 
+/*javaScript*/
 .mySlides {
   display: none;
 }
@@ -375,14 +389,12 @@ img {
   vertical-align: middle;
 }
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   height: 10px;
   width: 10px;
@@ -397,7 +409,6 @@ img {
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 4s;
@@ -406,19 +417,20 @@ img {
   margin-top: 10%;
 }
 
+/*footer*/
 a .footer-img {
-  max-width: 3%; /* Ændr bredden efter behov */
+  max-width: 3%;
   margin-left: 2%;
 }
 
 a .footer-img2 {
-  max-width: 2%; /* Ændr bredden efter behov */
+  max-width: 2%;
   margin-left: 2%;
 }
 
 .foot {
   display: flex;
-  justify-content: flex-end; /* Placér elementerne i højre side */
-  align-items: center; /* Centrer indholdet vertikalt */
+  justify-content: flex-end;
+  align-items: center;
   padding: 10px;
 }
