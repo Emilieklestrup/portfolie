@@ -134,13 +134,17 @@
   }
 
   .grid_4-1,
-  .grid_4-2,
+  .grid_4-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
   .grid_4-3 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 50px;
-  }
+    max-width: 100%;
 
+    grid-gap: 0;
+  }
   .grid_6-1 {
     display: grid;
     grid-template-columns: 1fr;
@@ -152,15 +156,10 @@
     margin-left: 10%;
   }
   .grid_4-4 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-    align-items: center;
-    justify-content: center;
+    display: none;
   }
   .grid_6 {
     display: grid;
-
     grid-gap: 10px;
     align-items: center;
     justify-content: center;

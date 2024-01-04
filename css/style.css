@@ -200,7 +200,7 @@ a:hover {
   border-radius: 20px;
 }
 .layout-billede1 {
-  max-width: 115%;
+  max-width: 100%;
   margin-top: 10%;
 }
 .layout-billede2 {
@@ -264,9 +264,14 @@ a:hover {
 }
 .kaffe-farver {
   margin-left: 15%;
+  max-width: 80%;
 }
 .kaffe {
   margin-left: 30%;
+  max-width: 50%;
+}
+.play {
+  max-width: 80%;
 }
 
 /*knapper og links*/
@@ -350,7 +355,7 @@ a:hover {
   margin-top: 15%;
 }
 
-.link {
+.link-insta {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -359,10 +364,26 @@ a:hover {
   border-radius: 20px;
   padding: 7px;
   max-width: 80%;
-  margin: 15px auto;
+  margin: 50px auto;
 }
-.link p {
+.link-insta p {
   margin-left: 0;
+  line-height: 0;
+}
+.link-linkedind {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f6dfda;
+  border-radius: 20px;
+  padding: 7px;
+  max-width: 80%;
+  margin: 50px auto;
+}
+.link-linkedind p {
+  margin-left: 0;
+  line-height: 0;
 }
 
 /*Grid*/
@@ -440,10 +461,12 @@ a .footer-img2 {
   #temaer,
   #indhold,
   #ommig,
-  #videosite #ux,
+  #videosite,
+  #ux,
   #animation,
   #Virksomhedssite,
-  #web {
+  #web,
+  #ux {
     background: none;
   }
   .logo {
@@ -465,7 +488,7 @@ a .footer-img2 {
   h3 {
     font-size: 16px;
     font-family: jacq2;
-    margin-top: 5%;
+    margin-top: 15%;
     margin-left: 12%;
   }
   #maal {
@@ -518,5 +541,24 @@ a .footer-img2 {
   }
   a .footer-img2 {
     max-width: 8%;
+  }
+
+  .link-insta {
+    order: 1;
+  }
+
+  .besøg,
+  .besøg2,
+  .besøg_emnesite,
+  .besøg_mia,
+  .besøg_brus {
+    font-size: 18px;
+    padding: 10px;
+  }
+  .farver-mia {
+    max-width: 80%;
+  }
+  .knapper {
+    max-width: 60%;
   }
 }
